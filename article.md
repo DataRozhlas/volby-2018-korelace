@@ -1,41 +1,46 @@
-title: "Data z mobilů:<br>Praha se denně nafoukne o polovinu, v centru jsou návštěvníci v převaze"
-perex: "Skoro 140 tisíc lidí přijede do Prahy každý den za prací. Míří hlavně do kancelářských budov a do centra města. S nimi pak dorazí i přes půl milionu návštěvníků. Ukázala to analýza dat o pohybu mobilních telefonů, kterou si nyní město nechává zpracovat."
-authors: ["Jan Cibulka", "Petr Kočí"]
-published: "21. dubna 2017"
-coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
-coverimg_note: "Foto <a href='#'>ČTK</a>"
+title: "Zeman sbíral hlasy u voličů KSČM, ANO a SPD. Drahoš u ODS, pirátů a TOP 09"
+perex: ""
+authors: ["Jan Boček"]
+published: "14. ledna 2018"
+coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/smartmockups_jau48ek_171205-220741_haf.jpeg?itok=fgVyu1wL
+coverimg_note: "Foto: Prezidentské volby 2018"
 styles: []
-libraries: [] #jquery
-options: "noheader" #wide, noheader (+nopic)
+libraries: ["https://code.jquery.com/jquery-3.1.1.min.js"]
+options: ""
 ---
-<left>
-	<p>
-	<b>KAREL HYNEK MÁCHA</b>
-	</p><p>
-	Karel Hynek Mácha (16. listopadu 1810 Praha-Malá Strana[1] – 6. listopadu 1836 Litoměřice[2]) byl český básník a prozaik, představitel českého romantismu a zakladatel moderní české poezie. Proslavil se jak svým životem, tak dílem, jemuž dominuje Máj (1836).
-	</p>
-</left>
 
-Během dne se lidé v Praze soustřeďují v okolí administrativních center a obchodů, po poledni se tak nejvíc zahustí okolí Andělu, centrum Prahy (Vodičkova ulice a Petrské náměstí) a Brumlovka nedaleko Budějovické. Na poslední jmenované adrese sídlí řada velkých korporací, mezi nimi i Microsoft nebo ČEZ. Pro srovnání, na zmíněných místech je ve „špičce“ okolo šesti stovek osob na jeden hektar, průměr Prahy je 25 obyvatel na [hektar](https://cs.wikipedia.org/wiki/Hektar) (Václavské náměstí má rozlohu asi 4 hektary).
+Ve volebních místnostech, kde v loňských parlamentních volbách získávala KSČM a Babišovo ANO, se včera dařilo Miloši Zemanovi nejlépe. O něco méně prozemanovské jsou volební okrsky, kde byla úspěšná Okamurova SPD. Nejnižší podporu má naopak tam, kde sbírala hlasy ODS.
 
-Naopak v noci se nejvíc lidí se „namačká“ ve Vršovicích, jde o 430 osob na hektar.
+Ukazuje to srovnání volebních výsledků z jednotlivých volebních okrsků metodou statistické korelace.
 
-Detaily si můžete prohlédnout v následující mapě, kterou z dat mobilních operátorů zpracoval pražský [Institut plánování a rozvoje](http://www.iprpraha.cz/).
+<wide><div style="overflow: hidden; box-sizing: border-box;"><img src="./charts/jpg" style="width: 500px; position: relative; float: left"/></div></wide>
 
-<wide>_Pokud vás zajímá, kolik lidí bývá ve dne a v noci ve vaší čtvrti, najděte si ji na mapě, přepněte se na časové řezy, vyberte přepínač hustota osob a potom pohybujte posuvníkem nahoře._</wide>
+Jeho protikandidát v nadcházejícím druhém kole volby, Jiří Drahoš, má přesně opačné sympatie: vítězil tam, kde se loni dařilo ODS, pirátům a TOP 09.
 
+<korelace Drahoš - strany>
 
-## Data na prodej
-<right>
-	<p>
-	<b>KAREL HYNEK MÁCHA</b>
-	</p><p>
-	Karel Hynek Mácha (16. listopadu 1810 Praha-Malá Strana[1] – 6. listopadu 1836 Litoměřice[2]) byl český básník a prozaik, představitel českého romantismu a zakladatel moderní české poezie. Proslavil se jak svým životem, tak dílem, jemuž dominuje Máj (1836).
-	</p>
-</right>
+Volební výsledky tak potvrzují tezi o rozdělené společnosti, kdy o post prezidenta soupeří dva bloky politických stran.
 
-I pokud netelefonujeme nebo neposíláme SMS, telefon pravidelně komunikuje s vysílači v síti mobilního operátora. Z dat o síle signálu a použité anténě je možné odvodit, kde se přibližně telefon nachází a jak dlouhou dobu na místě strávil.
+Výjimkou jsou voliči KDU-ČSL, kteří místo bipolární volby Zeman - Drahoš jednoznačně podpořili prezidentského kandidáta Pavla Fischera. Voliči křesťanských demokratů se tak po vyřazení svého kandidáta v prvním kole můžou tradičně stát těmi, kdo volbu rozhodnou. Značnou roli proto může sehrát podpora, kterou Drahošovi vyjádřil Fischer po sečtení výsledků.
 
-Mobilní operátor má [zákonnou povinnost](https://www.zakonyprolidi.cz/cs/2005-127/zneni-20160919#p97-3) takové informace uchovávat, a to půl roku do minulosti, přistupovat k nim ale mohou jen bezpečnostní složky, typicky policie nebo rozvědka.
+Nevyhranění byli v prvním kole voliči dalších dvou stran -- mírně prozemanovsky volily okrsky, kde se loni dařilo ČSSD, mírně prodrahošovsky okrsky, kde zabodoval STAN.
 
-Operátoři ale obdobné informace mohou anonymizovat (tedy zbavit identifikace konkrétního uživatele) a agregovat, tedy spojit informace o jednotlivcích do jakýchsi skupin. Výsledná obecná čísla pak přeprodávají dál, například marketingovým firmám či dopravním analytikům. Zpětně z nich nejde dovodit, kde se pohybuje každý jednotlivec, dávají ale určitý přehled o obecném chování obyvatel nějakého místa.
+U kandidátů, kteří do druhého kola nepostoupili, byla silná vazba mezi Mirkem Topolánkem a ODS a středně silná mezi Michalem Horáček a ODS. Slabé korelace jsou pak mezi Markem Hilšerem a piráty, Jiřím Hynkem a Svobodnými, Petrem Hannigem a SPD, a také Vratislavem Kulhánkem a STAN.
+
+<tabulka korelací>
+
+## Zeman proti Schwarzenbergovi se opakuje
+
+Podobně můžeme aktuální volbu srovnat s prvním kolem prezidentské volby před pěti lety. Porovnání je tentokrát méně přesné kvůli nově vzniklým obcím, které vznikly zmenšením vojenských újezdů v lednu 2016, a změně počtu volebních okrsků v některých velkých městech. V analýze tak chybí asi třetina pražských městských částí, města Hradec Králové, Jihlava a Olomouc a několik menších obcí.
+
+I tady se zdá podpora voličů rozdělena do dvou táborů. Miloše Zemana letos volila samozřejmě velká část jeho tehdejších voličů, ale také exvoliči Jiřího Dienstbiera, Jana Fischera a částečně Jany Bobošíkové. Dienstbierovi voliči jsou Zemanovi věrní navzdory tomu, že ho Dienstbier před pěti lety po vyřazení v prvním kole označil za nepřijatelného.
+
+<korelace Zeman - kandidáti>
+
+Jiří Drahoš sbírá hlasy tehdejších voličů Táni Fisherové, Přemysla Sobotky a hlavně Karla Schwarzenberga. Okrsky, které před pěti lety volily Karla Schwarzenberga, jsou vůbec poměrně vyhraněné: mají silnou korelaci s Drahošem, středně silnou korelaci s Topolánkem, Pavlem Fischerem a Michalem Horáčkem.
+
+<korelace Drahoše - kandidáti>
+
+Opět je tu jedna silná výjimka a opět je spojená s letošní kandidaturou Pavla Fischera. Důvěru mu dali hlavně bývalí voliči Zuzany Roithové. Podobně jako bývalá místopředsedkyně KDU-ČSL Roithová, také Fischer oslovuje hlavně křesťanské demokraty, ale nepovedlo se mu mobilizovat další voliče.
+
+<tabulka korelací>
